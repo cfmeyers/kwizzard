@@ -1,0 +1,21 @@
+---  
+question: what does the fox say?
+answer: no one knows
+---
+question: what does the owl say?
+answer: hoo hoo
+---
+question: what 2 + 2 equal?
+answer: 4
+---  
+question: what is fizzbuzz in python?
+answer:  |
+  for num in xrange(1,101):
+      msg = ''
+      if num % 3 == 0:
+          msg += 'Fizz'
+      if num % 5 == 0:
+          msg += 'Buzz'
+      print msg or num
+
+
