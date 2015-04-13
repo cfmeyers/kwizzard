@@ -1,5 +1,4 @@
 require_relative './lib/kwizard'
-require 'pry'
 
 kwizard = Kwizard.new('./questions')
 clear_code = %x{clear}

@@ -1,5 +1,4 @@
 require 'yaml'
-require 'pry'
 
 class Kwizard
   attr_reader :questions_path, :topics, :dialogues
